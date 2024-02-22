@@ -10,14 +10,17 @@ namespace pascal
             {
                 for (int oszlop = 0; oszlop < 10; oszlop++)
                 {
-                    Button b = new Button();
-                    b.Top = sor * 60;
-                    b.Left = oszlop * 60;
-                    b.Height = 60;
-                    b.Width = 60;
-                    this.Controls.Add(b);
-                    int p = Faktorialis(sor) / (Faktorialis(oszlop) * (Faktorialis(sor - oszlop)));
-                    b.Text = p.ToString();
+                    if (sor >= oszlop) {
+                        Button b = new Button();
+                        b.Top = sor * 60;
+                        b.Left = oszlop * 60;
+                        b.Height = 60;
+                        b.Width = 60;
+                        this.Controls.Add(b);
+                        int p = Faktorialis(sor) / (Faktorialis(oszlop) * (Faktorialis(sor - oszlop)));
+                        b.Text = p.ToString();
+                    }
+                    
                 }
             }
         }
