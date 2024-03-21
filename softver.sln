@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fibonacci", "fibonacci\fibo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pascal", "pascal\pascal.csproj", "{42E65099-CF58-483A-A716-477BDD0CC9D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3het", "3het\3het.csproj", "{011C12DD-989D-41B2-9824-79D8FF938747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3het", "3het\3het.csproj", "{011C12DD-989D-41B2-9824-79D8FF938747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a_kigyok_kigyoznak", "a_kigyok_kigyoznak\a_kigyok_kigyoznak.csproj", "{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{011C12DD-989D-41B2-9824-79D8FF938747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{011C12DD-989D-41B2-9824-79D8FF938747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{011C12DD-989D-41B2-9824-79D8FF938747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
