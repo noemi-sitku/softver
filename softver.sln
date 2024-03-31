@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pascal", "pascal\pascal.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3het", "3het\3het.csproj", "{011C12DD-989D-41B2-9824-79D8FF938747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a_kigyok_kigyoznak", "a_kigyok_kigyoznak\a_kigyok_kigyoznak.csproj", "{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "a_kigyok_kigyoznak", "a_kigyok_kigyoznak\a_kigyok_kigyoznak.csproj", "{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5hetes", "5hetes\5hetes.csproj", "{BD297D2F-F326-4C9F-B515-63F2870258E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BAB4CAA-64E5-4234-A2BE-21ACF27B49A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD297D2F-F326-4C9F-B515-63F2870258E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD297D2F-F326-4C9F-B515-63F2870258E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD297D2F-F326-4C9F-B515-63F2870258E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD297D2F-F326-4C9F-B515-63F2870258E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
