@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace fibonacci
 {
-    internal class Elem
+    internal class Sor
     {
-        private int Sorszam;
-        private long Érték;
+        
+            public int Sorszam { get; set; }
+
+            public int Érték { get; set; }
+       
     }
 }

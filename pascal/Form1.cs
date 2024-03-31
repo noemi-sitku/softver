@@ -10,7 +10,8 @@ namespace pascal
             {
                 for (int oszlop = 0; oszlop < 10; oszlop++)
                 {
-                    if (sor >= oszlop) {
+                    if (sor >= oszlop)
+                    {
                         Button b = new Button();
                         b.Top = sor * 60;
                         b.Left = oszlop * 60;
@@ -20,7 +21,7 @@ namespace pascal
                         int p = Faktorialis(sor) / (Faktorialis(oszlop) * (Faktorialis(sor - oszlop)));
                         b.Text = p.ToString();
                     }
-                    
+
                 }
             }
         }
@@ -33,5 +34,9 @@ namespace pascal
             return eredmény;
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

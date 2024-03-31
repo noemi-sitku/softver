@@ -5,18 +5,27 @@ namespace fibonacci
         public Form1()
         {
             InitializeComponent();
+        }
 
-            List<Elem> elemek = new List<Elem>();
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            List<Sor> sorok = new List<Sor>();
 
             for (int i = 0; i < 10; i++)
             {
-                Button b = new Button();
-                b.Top = i * 30;
-                b.Text = Fibonacci(i).ToString();
-                Controls.Add(b);
+                Sor újsor = new Sor();
+                újsor.Sorszam = i;
+                újsor.Érték = Fibonacci(i);
 
-                
+                sorok.Add(újsor);
+                Button button = new Button();
+                Controls.Add(button);
+                button.Top = i * 30;
+                button.Text = Fibonacci(i).ToString();
+
             }
+            dataGridView1.DataSource = sorok;
+
         }
 
         int Fibonacci(int n)
@@ -24,6 +33,7 @@ namespace fibonacci
             if (n == 0) return 0;
             if (n == 1) return 1;
             return Fibonacci(n - 1) + Fibonacci(n - 2);
+
         }
     }
 }
