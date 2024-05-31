@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pbb4N7DjwlE+AVEuinZZRMOSYtU/e2o0QsNZjPXzOHlxBdZq/LtP/6tWUGvlRj4K+zoi5tZPfs6sWPIXtqYTxg==",
+  "success": true,
+  "projectFilePath": "D:\\Noncsi\\egyetemm\\szoftver\\mintazh\\mintazh\\mintazh\\mintazh.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\snonc\\.nuget\\packages\\csvhelper\\31.0.3\\csvhelper.31.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
